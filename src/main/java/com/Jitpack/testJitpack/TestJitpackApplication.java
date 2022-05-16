@@ -9,5 +9,7 @@ public class TestJitpackApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TestJitpackApplication.class, args);
 	}
-
+	public String a(){
+		return "hi";
+	}
 }
